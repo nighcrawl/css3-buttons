@@ -3,7 +3,11 @@
 .wrapper {
     background: #eaeaea;
     padding: 2em 40px;
-    margin: -2em;
+    margin: -2em -2em auto;
+
+    &:last-child {
+        margin-top: auto;
+    }
 
     h2 {
         color: #333333;
@@ -12,7 +16,7 @@
         position: relative;
     }
 
-    &--dark {
+    &.dark {
         background: #222222;
 
         h2 {
